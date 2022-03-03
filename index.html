@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO App</title>
+</head>
+<body>
+    <div id="container">
+        <div id="logo">
+            <img id="logo" src="/src/assets/check.jpg" alt="">
+        </div>
+        <div id="head">
+            <p id="todo-heading">TODO App</p>
+        </div>
+        <div id="input">
+            <input type="text" class="input-box" id="task" required placeholder="Enter task...">
+            <input type="time" class="input-box" id="time" required placeholder="Enter time...">
+            <button id="save-btn">Save</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Time</th>
+                    <th>Done</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="tBody"></tbody>
+        </table>
+    </div>
+</body>
+<script src="./build/bundle.js"></script>
+</html>
